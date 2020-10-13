@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>lxl 站点管理</title>
+<link rel="stylesheet" href="lxl/main/css/index2.css" type="text/css" />
+<link rel="stylesheet" href="lxl/common/dist/jquery.vidbacking.css" type="text/css">
+<style>
+	body {
+		background-color:#0072E3;
+		background-image: url(lxl/common/assets/screenshot1.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		margin:0px;
+		overflow:hidden;
+	}
+</style>
+<script src="lxl/main/js/jquery.js"></script>
+<script src="lxl/common/dist/jquery.vidbacking.js" type="text/javascript"></script>
+<script>
+        $(document).ready(function() {
+           $(function(){
+			  $('body').vidbacking({
+				  'masked': true
+			  });
+		   });
+            			
+			//图标特效
+			$(".box").on("mouseenter",function(){
+				$(this).find(".box_icon").stop().animate({top:"0px",opacity:"0"},300,function(){
+					$(this).animate({top:"20px",opacity:"1"});
+				});
+				$(this).find("h3").stop().animate({opacity:"0",},300,function(){
+					$(this).animate({opacity:"1"});
+				});
+			});
+					
+        });
+    </script>
+
+</head>
+
+<body style="min-height:800px;overflow: auto;">
+	<video poster="lxl/common/assets/screenshot1.jpg" autoplay muted loop class="vidbacking">
+		<source src="lxl/common/assets/sky.mov" type="video/mp4">
+	</video>
+	<div class="header">
+		<!--
+		<div class="logo"><img src="lxl/main/img/logo.png" width="240" height="50" /></div>
+		-->
+	    <div class="nav">
+	    	<ul>
+	        <li><a href="#" class="nav_current">首页</a></li>
+	        <li><a href="#">注销</a></li>
+	        </ul>
+	    </div>
+	</div>
+	<div class="main">
+		<div class="container">
+			<div class="col-4">
+				<div class="box box_lightgreen">
+					<img src="lxl/main/img/yun.png" width="64" height="64" class="box_icon" />
+					<h3>XX工业云平台<small>V8.0.0.1</small></h3>
+					<p>这里是系统的介绍信息。。。。。。。。。。。。。。。。。。。。。。</p>
+					<a href="#" target="_blank">点击进入</a>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="box box_yellow">
+					<img src="lxl/main/img/qblog_fig3.png" width="64" height="64" class="box_icon" />
+					<h3>XX决策系统<small>V8.0.0.1</small></h3>
+					<p>这里是系统的介绍信息。。。。。。。。。。。。。。。。。。。。。。</p>
+					<a href="#" target="_blank">点击进入</a>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="box box_lightblue">
+					<img src="lxl/main/img/12.png" width="64" height="64" class="box_icon"/>
+					<h3>XX服务系统<small>V3.0.0.3</small></h3>
+					<p>这里是系统的介绍信息。。。。。。。。。。。。。。。。。。。。。。</p>
+					<a href="#" target="_blank">点击进入</a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="col-4">
+				<div class="box box_gray">
+					<img src="lxl/main/img/10.png" width="64" height="64" class="box_icon" />
+					<h3>XX故障系统<small>V3.0.0.1</small></h3>
+					<p>这里是系统的介绍信息。。。。。。。。。。。。。。。。。。。。。。</p>
+					<a href="#" target="_blank">点击进入</a>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="box box_blue">
+					<img src="lxl/main/img/logo_tes.png" width="64" height="64" class="box_icon" />
+					<h3>XX档案系统<small>V3.0.0.1</small></h3>
+					<p>这里是系统的介绍信息。。。。。。。。。。。。。。。。。。。。。。</p>
+					<a href="#" target="_blank">点击进入</a>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="box box_purple">
+					<img src="lxl/main/img/p2pop4.png" width="64" height="64" class="box_icon"/>
+					<h3>XX管理系统<small>V3.0.0.2</small></h3>
+					<p>这里是系统的介绍信息。。。。。。。。。。。。。。。。。。。。。。</p>
+					<a href="#" target="_blank">点击进入</a>
+				</div>
+			</div>
+	   </div>
+		<div class="container">
+			<div class="col-4">
+				<div class="box box_green">
+					<img src="lxl/main/img/qblog_fig2.png" width="64" height="64" class="box_icon"/>
+					<h3>XX分布式服务<small>V1.0.0.1</small></h3>
+					<p>这里是系统的介绍信息。。。。。。。。。。。。。。。。。。。。。。</p>
+					<a href="#" target="_blank">dubbox管理中心</a>&nbsp;&nbsp;
+					<a href="#" target="_blank">ZK集群管理中心</a>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="box box_lightyellow">
+					<img src="lxl/main/img/tool.png" width="64" height="64" class="box_icon"/>
+					<h3>XX配置中心<small>V6.5</small></h3>
+					<p>这里是系统的介绍信息。。。。。。。。。。。。。。。。。。。。。。</p>
+					<a href="#" target="_blank">点击进入</a>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="box box_lightgreen">
+					<img src="lxl/main/img/logo_version.png" width="64" height="64" class="box_icon" />
+					<h3>XX监控系统<small>V8.0.0.1</small></h3>
+					<p>这里是系统的介绍信息。。。。。。。。。。。。。。。。。。。。。。</p>
+					<a href="#" target="_blank">点击进入</a>
+				</div>
+			</div>
+		</div>
+
+		
+
+	</div>
+	<div class="footer">
+		<div class="container">
+	        <div class="footer_txt col-9">
+	            <p>为了获得最佳操作体验，建议您使用最新版本的浏览器，支持1024 X 768以上分辨率<br />lxl 版权所有</p>
+	        </div>
+			<!--
+	        <div class="footer_btn col-3" style="text-align:right;">
+	            <a href="https://oa.greatwall.com.cn:9443/logout.jsp" class="btn_white">返回EKP</a>
+	        </div> -->
+	    </div>
+	</div>
+	</body>
+</html>
