@@ -8,13 +8,13 @@
 > 如果没有动态效果，请刷新，mov视频加载可能与网络有关，建议不要使用老的IE内核浏览器，如IE8,360等，请使用最新浏览器。
 
 * canvas自定义js登录界面1
-![](https://github.com/lixianglong3210/lxling/tree/main/img/11.png)
+![](https://github.com/lixianglong3210/lxling/blob/main/img/Snap11.png)
 
 * vidbacking.js登录界面2
-![](./img/12.png)
+![](https://github.com/lixianglong3210/lxling/blob/main/img/Snap12.png)
 
 * vidbacking.js主界面1
-![](./img/13.png)
+![](https://github.com/lixianglong3210/lxling/blob/main/img/Snap13.png)
 
 * vidbacking.js主界面2
-![](./img/14.png)
+![](https://github.com/lixianglong3210/lxling/blob/main/img/Snap14.png)
