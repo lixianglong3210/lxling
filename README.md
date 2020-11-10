@@ -8,17 +8,17 @@
 > 如果没有动态效果，请刷新，mov视频加载可能与网络有关，建议不要使用老的IE内核浏览器，如IE8,360等，请使用最新浏览器。
 
 * canvas自定义js登录界面1
-演示地址： https://lixianglong3210.github.io/lxling/login1.html
+演示地址： http://ppdndc.coding-pages.com/login1.html
 ![](https://github.com/lixianglong3210/lxling/blob/main/img/Snap11.png)
 
 * vidbacking.js登录界面2
-演示地址： https://lixianglong3210.github.io/lxling/login2.html
+演示地址： http://ppdndc.coding-pages.com/login2.html
 ![](https://github.com/lixianglong3210/lxling/blob/main/img/Snap12.png)
 
 * vidbacking.js主界面1
-演示地址： https://lixianglong3210.github.io/lxling/main1.html
+演示地址： http://ppdndc.coding-pages.com/main1.html
 ![](https://github.com/lixianglong3210/lxling/blob/main/img/Snap13.png)
 
 * vidbacking.js主界面2
-演示地址： https://lixianglong3210.github.io/lxling/main2.html
+演示地址： http://ppdndc.coding-pages.com/main2.html
 ![](https://github.com/lixianglong3210/lxling/blob/main/img/Snap14.png)
